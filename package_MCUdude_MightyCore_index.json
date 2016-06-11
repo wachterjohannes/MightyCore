@@ -17,7 +17,7 @@
           "help": {
             "online": ""
           },
-          "url": "https://MCUdude.github.io/MightyCore/MightyCore-1.0.0.tar.gz",
+          "url": "https://wachterjohannes.github.io/MightyCore/MightyCore-1.0.0.tar.gz",
           "archiveFileName": "MightyCore-1.0.0.tar.gz",
           "checksum": "SHA-256:283b442209cef5406bc7c21074664e1b2783d9b5997f50b3195a5c6cd0ee4de5",
           "size": "306232",
@@ -51,7 +51,7 @@
           "help": {
             "online": ""
           },
-          "url": "https://MCUdude.github.io/MightyCore/MightyCore-1.0.1.tar.gz",
+          "url": "https://wachterjohannes.github.io/MightyCore/MightyCore-1.0.1.tar.gz",
           "archiveFileName": "MightyCore-1.0.1.tar.gz",
           "checksum": "SHA-256:999905c879d35ad8036fad976e7cccc84b7b68e4d7f3ca11e1ead5b23b1c8409",
           "size": "310170",
@@ -85,7 +85,7 @@
           "help": {
             "online": ""
           },
-          "url": "https://MCUdude.github.io/MightyCore/MightyCore-1.0.2.tar.gz",
+          "url": "https://wachterjohannes.github.io/MightyCore/MightyCore-1.0.2.tar.gz",
           "archiveFileName": "MightyCore-1.0.2.tar.gz",
           "checksum": "SHA-256:fbbb6d5f150edc71fc7d55550f066defeb3505bc19992c69d61b46b0e8462387",
           "size": "267338",
@@ -119,7 +119,7 @@
           "help": {
             "online": ""
           },
-          "url": "https://MCUdude.github.io/MightyCore/MightyCore-1.0.3r1.tar.gz",
+          "url": "https://wachterjohannes.github.io/MightyCore/MightyCore-1.0.3r1.tar.gz",
           "archiveFileName": "MightyCore-1.0.3r1.tar.gz",
           "checksum": "SHA-256:b5e759273e63b1b415c9c3412a568f10657b12db25cd1b26d02cc43c676c03db",
           "size": "271214",
@@ -153,7 +153,7 @@
           "help": {
             "online": ""
           },
-          "url": "https://MCUdude.github.io/MightyCore/MightyCore-1.0.4.tar.gz",
+          "url": "https://wachterjohannes.github.io/MightyCore/MightyCore-1.0.4.tar.gz",
           "archiveFileName": "MightyCore-1.0.4.tar.gz",
           "checksum": "SHA-256:64e64091cb823823cbe90ccd251b1150e22e8546489dc460e41c2d73a44bc347",
           "size": "271238",
@@ -187,7 +187,7 @@
           "help": {
             "online": ""
           },
-          "url": "https://MCUdude.github.io/MightyCore/MightyCore-1.0.5.tar.gz",
+          "url": "https://wachterjohannes.github.io/MightyCore/MightyCore-1.0.5.tar.gz",
           "archiveFileName": "MightyCore-1.0.5.tar.gz",
           "checksum": "SHA-256:c3c82e0be56bd5cd745b2b5300937f4135f2be59b49d5203e6fce33bd81a184a",
           "size": "339295",
@@ -196,6 +196,41 @@
             {"name": "ATmega644/P/PA/A"},
             {"name": "ATmega324P/PA/A"},
             {"name": "ATmega164P/PA/A"},
+            {"name": "ATmega32"},
+            {"name": "ATmega16"},
+            {"name": "ATmega8535"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "4.8.1-arduino5"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.0.1-arduino5"
+            }
+          ]
+        },
+        {
+          "name": "MightyCore",
+          "architecture": "avr",
+          "version": "1.1.0",
+          "category": "Contributed",
+          "help": {
+            "online": ""
+          },
+          "url": "https://wachterjohannes.github.io/MightyCore/MightyCore-1.1.0.tar.gz",
+          "archiveFileName": "MightyCore-1.1.0.tar.gz",
+          "checksum": "SHA-256:9758cb1d3ad3e7bb20f9553a63d078f3482b718e7fb104c1980e46be9ea272b8",
+          "size": "359019",
+          "boards": [
+            {"name": "ATmega1284/P"},
+            {"name": "ATmega644/P/PA/A"},
+            {"name": "ATmega324P/PA/A"},
+            {"name": "ATmega164P/PA/A"},
+            {"name": "ATmega162P/PA/A"},
             {"name": "ATmega32"},
             {"name": "ATmega16"},
             {"name": "ATmega8535"}
