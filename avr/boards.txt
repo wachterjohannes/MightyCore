@@ -499,3 +499,82 @@ menu.variant=Variant
 8535.menu.clock.1MHz_internal.bootloader.high_fuses=0xdc
 8535.menu.clock.1MHz_internal.bootloader.file=optiboot_flash/atmega8535/optiboot_flash_atmega8535_9600_1MHz.hex
 8535.menu.clock.1MHz_internal.build.f_cpu=1000000L
+
+############################################################
+
+
+162.name=ATmega162
+162.upload.tool=avrdude
+162.upload.protocol=arduino
+162.upload.maximum_size=15872
+162.upload.maximum_data_size=1024
+
+162.bootloader.tool=arduino:avrdude
+162.bootloader.unlock_bits=0x3f
+162.bootloader.lock_bits=0x0f
+
+162.build.core=MightyCore
+162.build.board=AVR_ATmega162
+
+162.menu.pinout.standard=Standard
+162.menu.pinout.standard.build.variant=standard
+162.menu.pinout.bobuino=Bobuino
+162.menu.pinout.bobuino.build.variant=bobuino
+
+162.menu.variant.modelP=162P / 162PA
+162.menu.variant.modelP.build.mcu=atmega162p
+162.menu.variant.modelA=162A
+162.menu.variant.modelA.build.mcu=atmega162a
+
+162.menu.BOD.2v7=2.7v
+162.menu.BOD.2v7.bootloader.extended_fuses=0xfd
+162.menu.BOD.4v3=4.3v
+162.menu.BOD.4v3.bootloader.extended_fuses=0xfc
+162.menu.BOD.1v8=1.8v
+162.menu.BOD.1v8.bootloader.extended_fuses=0xfe
+162.menu.BOD.disabled=Disabled
+162.menu.BOD.disabled.bootloader.extended_fuses=0xff
+
+
+#make atmega162 AVR_FREQ=16000000L BAUD_RATE=115200 UART=0 LED=B0 LED_START_FLASHES=2
+162.menu.clock.16MHz_external=16MHz external
+162.menu.clock.16MHz_external.upload.speed=115200
+162.menu.clock.16MHz_external.bootloader.low_fuses=0xf7
+162.menu.clock.16MHz_external.bootloader.high_fuses=0xdc
+162.menu.clock.16MHz_external.bootloader.file=optiboot_flash/atmega162/optiboot_flash_atmega162p_115200_16MHz.hex
+162.menu.clock.16MHz_external.build.f_cpu=16000000L
+
+#make atmega162 AVR_FREQ=20000000L BAUD_RATE=115200 UART=0 LED=B0 LED_START_FLASHES=2
+162.menu.clock.20MHz_external=20MHz external
+162.menu.clock.20MHz_external.upload.speed=115200
+162.menu.clock.20MHz_external.bootloader.low_fuses=0xf7
+162.menu.clock.20MHz_external.bootloader.high_fuses=0xdc
+162.menu.clock.20MHz_external.bootloader.file=optiboot_flash/atmega162/optiboot_flash_atmega162p_115200_20MHz.hex
+162.menu.clock.20MHz_external.build.f_cpu=20000000L
+
+#make atmega162 AVR_FREQ=8000000L BAUD_RATE=57600 UART=0 LED=B0 LED_START_FLASHES=2
+162.menu.clock.8MHz_external=8MHz external
+162.menu.clock.8MHz_external.upload.speed=57600
+162.menu.clock.8MHz_external.bootloader.low_fuses=0xf7
+162.menu.clock.8MHz_external.bootloader.high_fuses=0xdc
+162.menu.clock.8MHz_external.bootloader.file=optiboot_flash/atmega162/optiboot_flash_atmega162p_57600_8MHz.hex
+162.menu.clock.8MHz_external.build.f_cpu=8000000L
+
+#make atmega162 AVR_FREQ=8000000L BAUD_RATE=38400 UART=0 LED=B0 LED_START_FLASHES=2
+162.menu.clock.8MHz_internal=8MHz internal
+162.menu.clock.8MHz_internal.upload.speed=38400
+162.menu.clock.8MHz_internal.bootloader.low_fuses=0xe2
+162.menu.clock.8MHz_internal.bootloader.high_fuses=0xdc
+162.menu.clock.8MHz_internal.bootloader.file=optiboot_flash/atmega162/optiboot_flash_atmega162p_38400_8MHz.hex
+162.menu.clock.8MHz_internal.build.f_cpu=8000000L
+
+#make atmega162 AVR_FREQ=1000000L BAUD_RATE=9600 UART=0 LED=B0 LED_START_FLASHES=2
+162.menu.clock.1MHz_internal=1MHz internal
+162.menu.clock.1MHz_internal.upload.speed=9600
+162.menu.clock.1MHz_internal.bootloader.low_fuses=0x62
+162.menu.clock.1MHz_internal.bootloader.high_fuses=0xdc
+162.menu.clock.1MHz_internal.bootloader.file=optiboot_flash/atmega162/optiboot_flash_atmega162p_9600_1MHz.hex
+162.menu.clock.1MHz_internal.build.f_cpu=1000000L
+
+
+############################################################
